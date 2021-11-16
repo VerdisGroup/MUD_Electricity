@@ -7,6 +7,7 @@ library(purrr)
 library(tibble)
 library(janitor)
 library(plotly)
+library(usethis)
 
 options(scipen = 999)
 
@@ -70,7 +71,7 @@ ggplotly(plot)
 
 write_csv(Electricity, "~/Documents/MUD/MUD_2021_electricity_updates")
 
-git remote add origin ttps://github.com/VerdisGroup/VGMUD.git
+git remote add origin ttps://github.com/VerdisGroup/MUD_Electricity.git
 
 
 
